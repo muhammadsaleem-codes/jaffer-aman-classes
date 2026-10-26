@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.icons{
+    display: flex;
+
+}
+
+.img-banner{
+    background-image: url(./imges/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.the-box{
+   border-radius: 10px;
+   height: 300px;
+   box-shadow: 12px 12px -1px lightgray;
+   width: 400px;
+    display: flex;
+    flex-direction: column;
+    background :white;
+    position: absolute;
+    top: 150px;
+    left: 900px;
+    padding: 10px;
+    background-color: rgb(219, 170, 150);
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:600){
+     .the-box{
+        
+     }
+}

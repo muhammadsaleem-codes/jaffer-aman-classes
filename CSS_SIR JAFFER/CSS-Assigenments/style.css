@@ -1,0 +1,98 @@
+
+*{
+    padding: 0px;
+    
+}
+
+
+#container{
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.favoirte > h1{
+    color: #42025cb7;
+    
+}
+ .favoirte > p::first-line{
+    color: rgb(255, 136, 0);
+    background-color: cyan;
+    box-shadow: 4px 3px 2px 1px;
+    font-size: 18px;
+ }
+ .favoirte > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  font-weight: 10px;
+  font-style: italic;  
+
+ }
+
+ .myqualities >h2{
+    color: rgb(9, 98, 170);
+    box-shadow: 3px 2.5px 2px 1.5px;
+    transition: 2s;
+    width: 200px;
+    margin-left: 550px;
+    padding: 10px;
+    background-color: chartreuse;
+    
+ }
+.myqualities >h2:hover{
+    background-color: #fa5353;
+}
+
+.myqualities >p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 17px;
+}
+.learning h2::first-letter{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px; 
+    font-style: italic;
+    color: hsl(125, 100%, 33%);
+    
+
+}
+.learning >h2{
+    color: hsl(318, 90%, 46%);
+      transition: 2s;
+    width: 250px;
+    margin-left: 550px;
+    padding: 10px;
+    background-color: #03696d;
+}
+.learning>h2:hover{
+    color: white;
+}
+
+.learning>p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+
+
+
+
+/* .mmyhead >p::first-line{
+    background-color: red;
+    font-size: 40px;
+
+}
+
+.mmyhead:hover >p::first-line{
+    color: wheat;
+} */
+
+
+
+.myqualities p{
+    
+
+}

@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.myContainer {
+    margin-left: 320px;
+    border: 1px solid black;
+    box-shadow: 12px 8px 4px gray;
+    width: 900px;
+    height: 1990px;
+    background-color: hsl(177, 100%, 87%);
+}
+
+.nav>span:hover {
+    background-color: #f80707;
+    transition: all 1s ease;
+
+
+}
+.myContainer>.nav {
+    height: 210px;
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    background-color: hsla(0, 5%, 12%, 0.856);
+    color: white;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.myContainer>.nav >span{
+    font-style: italic;
+    
+}
+.myContainer .aboutMe {
+    text-align: center;
+    font-size: 20px;
+}
+
+.aboutMe h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    
+}
+
+.aboutMe>p {
+    padding: 10px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border-left: 2px solid black;
+    border-left-width: 7px;
+    background-color: #fce69de3;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}
+
+.mySkills>h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mySkills>div:hover {
+    background-color: black;
+    color: white;
+    transition: all 3s ease;
+    
+}
+
+.mySkills .cours {
+    height: 200px;
+    width: 210px;
+    text-align: center;
+    margin: 20px;
+    border: 3px solid black;
+    float: left;
+    border-radius: 10px;
+    margin-left: 45px;
+    text-transform: capitalize;
+    
+    
+    
+}
+
+.mySkills .Advanc-js {
+    height: 215px;
+    width: 210px;
+    text-align: center;
+    border: 3px solid black;
+    margin-left: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    text-transform: capitalize;
+
+
+
+
+}
+.myContainer >.mySkills{
+    padding: 10px;
+    
+}
+
+.mySkills div>p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.education>h1 {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 34px;
+}
+
+.education>div {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    height: 80px;
+    word-spacing: 5px;
+    font-size: 20px;
+    box-shadow: 8px 4px 4px gray;
+}
+
+.education>div:hover {
+    background-color: chartreuse;
+    transition: all 2s ease-out;
+    
+}
+
+.hobbies>button {
+    margin: 10px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 30px;
+    padding: 18px;
+    background-color: #f80707;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+.hobbies>h1 {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 34px;
+}
+
+.hobbies>button:hover {
+    background-color: #0bf10b;
+    color: black;
+    transition: all 2s ease-out;
+
+}
+
+.myContainer >.hobbies{
+    padding: 10px;
+
+}
+.achivements>h1 {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 34px;
+
+}
+
+.achivements>.text {
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid;
+    height: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f7dab4;
+}
+
+.myContainer >.achivements{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.contacMe>h1 {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-size: 34px;
+
+
+}
+
+.contacMe {
+    font-size: 17px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color: hwb(0 8% 91% / 0.774);
+    color: white;
+}
+.myContainer >.contacMe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer {
+    text-align: center;
+    color: azure;
+    height: 50px;
+    background-color: black;
+ padding-top: 20px;
+    /* padding-bottom: 20px; */
+}

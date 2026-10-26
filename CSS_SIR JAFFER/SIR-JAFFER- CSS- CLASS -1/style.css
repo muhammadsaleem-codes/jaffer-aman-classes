@@ -1,0 +1,41 @@
+/* h1{
+    color:#fff;
+    background-color: black;
+
+} */
+/* 
+#heading{
+    background-image: url(https://as1.ftcdn.net/jpg/02/84/69/28/1000_F_284692833_rSaqbvMJMwrFHIO8y3N8BDny0Ron26zj.jpg);
+    background-repeat: repeat-x;
+}
+
+
+.myheading{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqkH6975dZEu7eTP4E_jMPT1DRNJoZ2uFyaIhLmKWJ14hBNJvMJjNP7mt&s=10);
+    background-image: repeat-x;
+    color: chartreuse
+;
+} */
+
+h1{
+    font-size: bold;
+}
+
+#intro{
+    text-transform: capitalize;
+    text-decoration: overline salmon dashed;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: underline dotted coral 5px;
+}
+
+.Mypera::first-line{
+    text-decoration: underline;
+    color: red;
+}
+
+

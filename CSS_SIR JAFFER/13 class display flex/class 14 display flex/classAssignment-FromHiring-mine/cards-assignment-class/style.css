@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+header >.name-icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+
+}
+.headings a{
+   color: black;
+   box-shadow: 5px 5px 5px lavender;
+    margin: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 9px;
+    text-align: center;
+
+
+}
+.headings >.home{
+    background-color: black;
+    color: white;
+}
+.cards-parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cards-Newparent{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.box4{
+    box-shadow: 12px 12px 23px lightgray;
+}
+.box1{
+    box-shadow: 12px 12px 23px lightgray;
+}
+.box2{
+    box-shadow: 12px 12px 23px lightgray;
+}.box3{
+    box-shadow: 12px 12px 23px lightgray;
+}
+.cards-Newparent >.box4 button{
+    margin-left: 250px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.cards-parent >.box1 button{
+    margin-left: 250px;
+    padding: 5px;
+    background-color: black;
+    color: white; 
+}
+.cards-parent >.box2 button{
+      margin-left: 238px;
+    padding: 5px;
+    background-color: black;
+    color: white; 
+}.cards-parent >.box3 button{
+      margin-left: 200px;
+      margin-left: 220px;
+    padding: 5px;
+    background-color: black;
+    color: white; 
+}

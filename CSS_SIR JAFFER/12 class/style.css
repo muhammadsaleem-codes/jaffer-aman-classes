@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.navbar li{
+    display: inline-block;
+    margin: 12px auto;
+    padding: 12px ;
+
+}
+
+.navbar ul{
+    
+
+}
+.banner{
+    background-image: url('https://www.apple.com/v/homepage/images/iphone-18-pro/a/hero_iphone_18_pro__fqe1motd0ymy_large_2x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.box1{
+    color: antiquewhite;
+    background-color: #f12020;
+    width: 200px;
+    height: 200px;
+}
+
+.box2{
+    color: rgb(41, 39, 37);
+    background-color: hsl(66, 88%, 54%);
+    width: 200px;
+    height: 200px;
+}
+.box3{
+    color: antiquewhite;
+    background-color: #0e51e0;
+    width: 200px;
+    height: 200px;
+}
+.parent{
+    display: flex;
+      justify-content: space-around;
+}

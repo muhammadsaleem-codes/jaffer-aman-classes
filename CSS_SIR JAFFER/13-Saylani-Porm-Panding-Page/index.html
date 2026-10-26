@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now | Saylani IT Training</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="site-nav">
+        <img src="./imges/sit-logo (1).png" alt="Saylani IT Training">
+        <div class="nav-links">
+            <span>Home</span>
+            <span>About</span>
+            <span>Courses</span>
+            <span>Campuses</span>
+            <span>Check Result</span>
+        </div>
+        <button>Enroll Now</button>
+    </div>
+
+    <img class="banner" src="./imges/Screenshot 2026-10-14 211500.png" alt="Enroll Now - Registration Form">
+
+    <div class="options">
+        <div class="option active">
+            <i class="fa-regular fa-file-lines"></i>
+            <span>Registration Form</span>
+        </div>
+        <div class="option">
+            <i class="fa-regular fa-id-card"></i>
+            <span>Download ID Card</span>
+        </div>
+        <div class="option">
+            <i class="fa-regular fa-address-card"></i>
+            <span>Entry Test Status</span>
+        </div>
+        <div class="option">
+            <i class="fa-solid fa-square-poll-vertical"></i>
+            <span>Result</span>
+        </div>
+    </div>
+
+    <div class="main">
+        <form enctype="multipart/form-data">
+            <div class="form-section">
+                <h1><i class="fa-solid fa-location-dot"></i> Location &amp; Course Details</h1>
+                <div class="fields">
+                    <div class="field">
+                        <label for="country">Select Country <span>*</span></label>
+                        <select id="country" required>
+                            <option value="" selected disabled>Select country</option>
+                            <option>Pakistan</option>
+                            <option>Turkey</option>
+                            <option>Yemen</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="class">Select Class Preference <span>*</span></label>
+                        <select id="class" required>
+                            <option value="" selected disabled>Select class preference</option>
+                            <option>Onsite</option>
+                            <option>Online</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="gender">Select Gender <span>*</span></label>
+                        <select id="gender" required>
+                            <option value="" selected disabled>Select gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="city">Select City <span>*</span></label>
+                        <select id="city" required>
+                            <option value="" selected disabled>Select city</option>
+                            <option>Karachi</option>
+                            <option>Khuzdar</option>
+                            <option>Quetta</option>
+                            <option>Lahore</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="course">Select Course <span>*</span></label>
+                        <select id="course" required>
+                            <option value="" selected disabled>Select course</option>
+                            <option>Web Development</option>
+                            <option>Mobile App Development</option>
+                            <option>Artificial Intelligence</option>
+                            <option>Graphic Designing</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="campus">Select Campus</label>
+                        <select id="campus">
+                            <option value="" selected disabled>Select campus</option>
+                            <option>Malir Campus</option>
+                            <option>Gulshan Campus</option>
+                            <option>Bahadurabad Campus</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2><i class="fa-regular fa-user"></i> Personal Information</h2>
+                <div class="fields">
+                    <div class="field">
+                        <label for="name">Full Name <span>*</span></label>
+                        <input id="name" type="text" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="field">
+                        <label for="father-name">Father Name <span>*</span></label>
+                        <input id="father-name" type="text" placeholder="Enter father's name" required>
+                    </div>
+                    <div class="field">
+                        <label for="dob">Date of Birth <span>*</span></label>
+                        <input id="dob" type="date" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email <span>*</span></label>
+                        <input id="email" type="email" placeholder="@example.com" required>
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone <span>*</span></label>
+                        <input id="phone" type="tel" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="field">
+                        <label for="father-phone">Father's Phone <span>*</span></label>
+                        <input id="father-phone" type="tel" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="field">
+                        <label for="cnic">CNIC <span>*</span></label>
+                        <input id="cnic" type="text" placeholder="1234567890123 (13 digits)" required>
+                    </div>
+                    <div class="field">
+                        <label for="father-cnic">Father's CNIC <span>*</span></label>
+                        <input id="father-cnic" type="text" placeholder="1234567890123 (13 digits)" required>
+                    </div>
+                    <div class="field full-width">
+                        <label for="address">Address <span>*</span></label>
+                        <textarea id="address" maxlength="220" placeholder="Enter your complete address (minimum 10 characters)" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Education &amp; Technical Details</h2>
+                <div class="fields">
+                    <div class="field">
+                        <label for="proficiency">Computer Proficiency <span>*</span></label>
+                        <select id="proficiency" required>
+                            <option value="" selected disabled>Select your computer proficiency</option>
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="qualification">Last Qualification <span>*</span></label>
+                        <select id="qualification" required>
+                            <option value="" selected disabled>Last qualification</option>
+                            <option>Matriculation</option>
+                            <option>Intermediate</option>
+                            <option>Bachelor's</option>
+                            <option>Master's</option>
+                        </select>
+                    </div>
+                    <div class="field full-width">
+                        <label for="heard-about">Where did you hear about us? <span>*</span></label>
+                        <select id="heard-about" required>
+                            <option value="" selected disabled>Where did you hear about us?</option>
+                            <option>Social Media</option>
+                            <option>Friends or Family</option>
+                            <option>Website</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="field full-width laptop-field">
+                        <label>Do you have a Laptop? <span>*</span></label>
+                        <div class="radio-options">
+                            <label><input type="radio" name="laptop" required> Yes</label>
+                            <label><input type="radio" name="laptop"> No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section upload-section">
+                <h2><i class="fa-solid fa-arrow-up-from-bracket"></i> Upload Picture</h2>
+                <label class="upload-box" for="picture">
+                    <span class="upload-icon"><i class="fa-solid fa-arrow-up-from-bracket"></i></span>
+                    <span class="upload-button">+ Upload Picture</span>
+                    <span class="upload-hint">Upload a recent passport-size photograph.</span>
+                    <span class="upload-hint">JPG or PNG, maximum file size 2 MB.</span>
+                    <span class="upload-hint" id="file-name">No file selected</span>
+                    <input class="file-input" id="picture" name="picture" type="file">
+                </label>
+            </div>
+
+            <div class="form-section terms-section">
+                <h2><i class="fa-regular fa-circle-check"></i> Terms and Conditions</h2>
+                <div class="terms-box">
+                    <label class="term">
+                        <input type="checkbox" required>
+                        <span>I hereby solemnly declare that all information provided in this application is true and accurate to the best of my knowledge. Furthermore, I agree to abide by all current and future rules, regulations, and policies established by SIT.</span>
+                    </label>
+                    <label class="term">
+                        <input type="checkbox" required>
+                        <span>I accept the responsibility to maintain good conduct throughout the program and commit to focusing solely on learning. I will not engage in any political, unethical, or unrelated activities during my enrollment. Any violation may result in immediate cancellation of my admission.</span>
+                    </label>
+                    <label class="term">
+                        <input type="checkbox" required>
+                        <span>Upon completion of the course, I agree to successfully complete my project assigned by SIT as part of the program requirements.</span>
+                    </label>
+                    <label class="term">
+                        <input type="checkbox" required>
+                        <span>Female students are required to wear an abaya or hijab while attending classes.</span>
+                    </label>
+                    <p class="terms-links">By submitting this form, you agree to our <a href="#privacy">Privacy Policy</a> and <a href="#terms">Terms of Service</a>.</p>
+                </div>
+            </div>
+
+            <div class="notice">
+                <i class="fa-solid fa-circle-info"></i>
+                <div>
+                    <strong>Important Notice</strong>
+                    <p>Please ensure all information provided is accurate. Incomplete or false information may result in rejection of your application.</p>
+                </div>
+            </div>
+
+            <label class="captcha">
+                <input type="checkbox" required>
+                <span>I'm not a robot</span>
+            </label>
+
+            <button type="submit" class="submit-btn"><i class="fa-regular fa-floppy-disk"></i> Submit Registration</button>
+        </form>
+    </div>
+
+    <div class="site-footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logos">
+                    <img src="./imges/sit-logo (1).png" alt="Saylani IT Training">
+                    <span class="welfare-logo"><i class="fa-solid fa-leaf"></i> Saylani Welfare</span>
+                </div>
+                <p>Empowering Pakistan's youth with world-class IT education and training programs to build a brighter digital future.</p>
+                <div class="footer-address">
+                    <span><i class="fa-solid fa-location-dot"></i> A-25, Bahadurabad Chowrangi, Karachi, Pakistan</span>
+                    <a href="tel:+9221111729526"><i class="fa-solid fa-phone"></i> +92 21 111 729 526</a>
+                    <a href="mailto:info@saylaniwelfare.com"><i class="fa-regular fa-envelope"></i> info@saylaniwelfare.com</a>
+                </div>
+                <div class="social-links" aria-label="Social media links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#twitter" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Enroll Now</a>
+                <a href="#">Download ID Card</a>
+                <a href="#">Entry Test Status</a>
+                <a href="#">Check Results</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Our Courses</h3>
+                <a href="#">Web Development</a>
+                <a href="#">Agentic AI</a>
+                <a href="#">AI &amp; Data Science</a>
+                <a href="#">Graphic Designing</a>
+                <a href="#">3D Animation</a>
+                <a href="#">DevOps Engineer</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <a href="#">Courses</a>
+                <a href="#c">Campuses</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 <strong>Saylani IT Training</strong>. All rights reserved.</span>
+            <div><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+        </div>
+    </div>
+</body>
+</html>

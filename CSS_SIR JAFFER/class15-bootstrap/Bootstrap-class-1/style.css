@@ -1,0 +1,8 @@
+#items{
+    height: 400px;
+    gap: 100px;
+}
+#boxses{
+    border: 1px solid black;
+    text-align: center;
+}

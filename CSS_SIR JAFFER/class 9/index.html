@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Salaries</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    .container {
+      width: 80%;
+      margin: 40px auto;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      background: #fff;
+    }
+
+    .heading {
+      background: #f7c7c7;
+      color: #3b1d1d;
+      text-align: center;
+      padding: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 14px 16px;
+      text-align: center;
+    }
+
+    th {
+      background: #f3d2d2;
+      font-size: 1.1rem;
+    }
+
+    tr:nth-child(even) {
+      background: #fafafa;
+    }
+
+    .absent-row:hover {
+      background: hsl(120, 86%, 50%);
+    }
+
+    .footer {
+      background: #d9f2d9;
+      text-align: center;
+      padding: 16px;
+      font-weight: bold;
+      color: #1f3a1f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">Employee Salary List</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Ali</td><td>Manager</td><td>$5000</td></tr>
+        <tr><td>2</td><td>Ahmad</td><td>Developer</td><td>$4200</td></tr>
+        <tr><td>3</td><td>Sara</td><td>Designer</td><td>$3900</td></tr>
+        <tr><td>4</td><td>Hassan</td><td>Engineer</td><td>$4700</td></tr>
+        <tr class="absent-row"><td>5</td><td>Fatima</td><td>Analyst</td><td>$3600</td></tr>
+        <tr><td>6</td><td>Usman</td><td>Support</td><td>$3200</td></tr>
+        <tr><td>7</td><td>Aisha</td><td>Marketing</td><td>$3500</td></tr>
+        <tr><td>8</td><td>Zain</td><td>Tester</td><td>$3400</td></tr>
+      </tbody>
+    </table>
+
+    <div class="footer">Total Salary: $31,500</div>
+  </div>
+
+
+
+
+  
+</body>
+</html>

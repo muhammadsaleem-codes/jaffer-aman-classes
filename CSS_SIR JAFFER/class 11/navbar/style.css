@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 10px;
+
+}
+
+.navBar{
+    background-color: rgb(146, 143, 143);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    top:0%;
+
+}
+
+.navBar li{
+    margin: 10px;
+    display: inline-block;
+    margin-left: 200px;
+    transition: all 3s ease;
+}
+.navBar li:hover{
+    text-decoration: underline;
+    color: #f7f31e;
+}
+.content{
+    background-color: #f55b5b;
+    padding: 20px; 
+}

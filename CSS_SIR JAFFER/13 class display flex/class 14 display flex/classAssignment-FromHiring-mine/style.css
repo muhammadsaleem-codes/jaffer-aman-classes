@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    border: 1px;
+    text-align: center;
+}
+.box1{
+    border-radius: 20px 0px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 12px 12px 13px #c3e0e0;
+    background-color: #cde7df;
+    padding: 10px;
+    transition: all 3s ease;
+}
+.box1:hover{
+    background-color: rgb(146, 125, 125);
+
+}

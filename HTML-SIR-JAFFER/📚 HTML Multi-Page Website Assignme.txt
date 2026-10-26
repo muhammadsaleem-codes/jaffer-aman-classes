@@ -1,0 +1,160 @@
+📚 HTML Multi-Page Website Assignment
+🎯 Assignment Title:
+“My Personal Portfolio Website”
+
+📝 Task:
+Students ko HTML use karte hue ek complete multi-page website banani hai. Website mein minimum 4 pages hon:
+
+Home
+About
+Courses / Services
+Contact
+Har page par navigation menu hona chahiye, jiske through user ek page se doosre page par ja sake.
+
+1. 🏠 Home Page
+Home page par:
+
+Website ka title/heading
+Student ka short introduction
+Ek paragraph website ke purpose ke bare mein
+Unordered List mein website ki 3–5 highlights
+About page par jane ke liye anchor link
+Courses/Services page par jane ke liye anchor link
+Contact page par jane ke liye anchor link
+Example:
+
+Welcome to My Portfolio
+
+Hello! My name is ______.
+I am a student of ______.
+
+My Website Includes:
+• 
+• 
+• 
+• 
+
+2. 👨‍🎓 About Page
+About page par student ko apne bare mein information deni hai.
+
+Is page par:
+
+Name
+Education
+Hobbies
+Skills
+Nested List lazmi use karni hai.
+
+Example:
+
+My Skills
+
+• 
+   - 
+   
+   - 
+
+• 
+   - 
+   - 
+
+• Other Skills
+   - 
+   - Teamwork
+
+3. 💼 Courses / Services Page
+Is page par student ko Ordered List + Nested List use karni hai.
+
+Example:
+
+Courses I Offer
+
+1. Web Development
+   a. HTML
+   b. CSS
+   c. JavaScript
+
+2. Graphic Designing
+   a. Photoshop
+   b. Illustrator
+
+3. Digital Marketing
+   a. SEO
+   b. Social Media Marketing
+
+Har course/service ke sath 1–2 lines ki short description bhi honi chahiye.
+
+4. 📞 Contact Page
+Contact page par:
+
+Student ka name
+Email
+Phone number
+City
+Address
+Aur social media anchor links add karne hain.
+
+Example:
+
+Follow Me
+
+Facebook
+Instagram
+YouTube
+LinkedIn
+
+Har social media name par click karne se uski respective website open honi chahiye.
+
+Students ko target="_blank" ka use bhi karna hai taa-ke social media new tab mein open ho.
+
+🔗 Navigation Requirement
+Sabse important requirement: Har page par same navigation menu hona chahiye:
+
+Home | About | Courses | Contact
+
+Example:
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="courses.html">Courses</a>
+<a href="contact.html">Contact</a>
+
+Student ko ensure karna hai ke:
+
+Home → About → Courses → Contact
+
+aur har page se wapas Home par bhi ja sakay.
+
+📁 Required Folder Structure
+Students ki files is tarah organized honi chahiye:
+
+My-Website/
+│
+├── index.html
+├── about.html
+├── courses.html
+└── contact.html
+
+⭐ Bonus Task
+Jo students extra karna chahte hain woh:
+
+Ek Gallery page add karein.
+Gallery page ko navigation menu mein add karein.
+Home page par “Visit My Social Media” section banayein.
+Kisi external website ka link add karein.
+Page ke andar kisi specific section par jane ke liye internal anchor link banayein.
+📌 Submission Requirements
+Students ko minimum 4 HTML pages submit karne hain.
+
+Assignment mein ye concepts lazmi hone chahiye:
+
+✅ <ul> Unordered List
+✅ <ol> Ordered List
+✅ Nested Lists
+✅ <a> Anchor
+✅ Internal Page Linking
+✅ External Website Linking
+✅ Social Media Links
+✅ Multi-Page Navigation
+✅ target="_blank"
+✅ Proper folder/file structure

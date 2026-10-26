@@ -1,0 +1,11 @@
+.my-sliders img{
+   height: 500px;
+   width: 100vw;
+}
+
+.cards-contianer{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
