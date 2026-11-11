@@ -647,21 +647,23 @@ else {
 // 200 se above: Rs. 20 per unit.
 // Total bill calculate karein.
 
-var units = +prompt('Enter electricity units');
+// var units = +prompt('Enter electricity units');
 
-var bill;
+// var bill;
 
-if (units <= 100) {
-    bill = units * 10;
-}
-else if (units <= 200) {
-    bill = units * 15;
-}
-else {
-    bill = units * 20;
-}
+// if (units <= 100) {
+//     bill = units * 10;
+// }
+// else if (units <= 200) {
+//     bill = units * 15;
+// }
+// else {
+//     bill = units * 20;
+// }
 
-console.log('Total Electricity Bill: Rs. ' + bill);
+// console.log('Total Electricity Bill: Rs. ' + bill);
+
+
 
 
 // Q48. Number Comparison
