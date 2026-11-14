@@ -1,0 +1,225 @@
+JavaScript Assignment – Class Practice
+60 Coding Challenges
+Beginner to Advanced
+Homework
+Total Questions: 60
+
+Language: JavaScript
+
+Submission: Individual
+
+Practice: VS Code / Browser Console
+
+Topics: Arrays, Loops, Functions & DOM
+
+Instructions for Students
+
+Har question khud solve karna hai.
+
+Har question ka code likhna zaroori hai.
+
+Copy-paste allowed nahi hai.
+
+Har program ka output check karna hai.
+
+Jahan function ka question ho, wahan function bana kar call bhi karna hai.
+
+Part 1: Array Methods (10 Questions)
+Easy Level
+Topics: push, pop, shift, unshift
+
+Ek array banao jisme 5 students ke names hon. push() use karke 2 new students add karo.
+
+Ek fruits ka array banao. pop() use karke last fruit remove karo aur updated array print karo.
+
+Ek cities ka array banao. shift() use karke first city remove karo.
+
+Ek array mein 4 colors rakho. unshift() use karke starting mein 2 new colors add karo.
+
+Ek students array banao. Pehle push() se 3 students add karo aur phir pop() se last student remove karo.
+
+Topics: slice and splice
+
+Ek array banao:
+
+
+javascript
+var names = ["Ali", "Ahmed", "Jaffar", "Bilal", "Sufiyan"];
+slice() use karke index 1 se index 3 tak elements copy karo.
+
+Ek array banao aur slice(0, 3) use karke first 3 elements ka new array banao.
+
+Ek array banao aur slice(-2) use karke last 2 elements copy karo.
+
+Ek array banao. splice() use karke index 2 se 2 elements delete karo.
+
+Ek array banao. splice() use karke index 1 par 2 new names add karo without deleting any element.
+
+Part 2: For Loop (10 Questions)
+Easy to Medium
+11. For loop use karke 1 se 20 tak counting print karo.
+
+12. For loop use karke 50 se 1 tak reverse counting print karo.
+
+13. 1 se 100 tak sirf even numbers print karo.
+
+14. 1 se 100 tak sirf odd numbers print karo.
+
+15. Kisi bhi number ka table 1 se 10 tak print karo.
+
+16. 1 se 10 tak numbers ka sum calculate karo.
+
+17. 1 se 50 tak jitne numbers 5 se completely divide hote hain unko print karo.
+
+18. Ek loop banao jo 10 se 100 tak counting kare aur har 10th number print kare.
+
+19. For loop use karke 1 se 10 tak numbers ke squares print karo.
+
+20. Ek loop banao jo 1 se 20 tak chale. Agar number 10 ho jaye to break use karke loop stop kar do.
+
+Part 3: Arrays with Loops (10 Questions)
+Medium Level
+Ek cities ka array banao aur loop use karke tamam cities console mein print karo.
+
+Ek students ka array banao aur har student ke naam ke sath Welcome print karo.
+
+Example: Welcome Ali
+
+Ek numbers ka array banao. Loop use karke tamam numbers ka sum calculate karo.
+
+Ek numbers ka array banao. Sirf even numbers print karo.
+
+Ek numbers ka array banao. Sirf odd numbers print karo.
+
+Ek array mein 10 numbers rakho. Loop use karke check karo ke kaun se numbers 5 se divisible hain.
+
+Ek array banao:
+
+
+javascript
+var cities = ["Karachi", "Lahore", "Multan", "Islamabad", "Quetta"];
+Loop use karke Karachi aur Multan ko skip karo using continue.
+
+Ek array banao jisme 8 students ke names hon. Loop use karke index 4 par loop stop karo using break.
+
+Ek numbers ka array banao. Loop use karke har number ko 2 se multiply karke print karo.
+
+Ek array banao. Loop use karke array ke tamam elements ko reverse order mein print karo. reverse() method use nahi karna.
+
+Part 4: Functions (10 Questions)
+Medium Level
+31. Ek function banao jiska naam greet() ho. Function call karne par Hello Students print ho.
+
+32. Ek function banao jo user ka name prompt se le aur Welcome + Name print kare.
+
+33. Ek function banao jo 2 numbers ko add kare.
+
+34. Ek function banao jo 2 numbers ko subtract kare.
+
+35. Ek function banao jo 3 numbers ka multiplication calculate kare.
+
+36. Ek function banao jo kisi number ka table print kare.
+
+37. Ek function banao jo check kare ke given number even hai ya odd.
+
+38. Ek function banao jo 1 se 100 tak counting print kare.
+
+39. Ek function banao jo 2 numbers input le aur unmein se greater number print kare.
+
+40. Ek function banao jo kisi student ka name aur age receive kare aur dono console mein print kare.
+
+Part 6: DOM – Input Get & Set (10 Questions)
+Practical DOM Challenges
+Question 51: Get User Name
+
+HTML mein ek input field banao.
+
+Ek button banao.
+
+Button click hone par input ki value console mein print karo.
+
+Question 52: Set Input Value
+
+HTML mein ek input field banao.
+
+Ek button banao.
+
+Button click hone par input field mein Welcome to JavaScript set karo.
+
+Question 53: Addition Calculator
+
+2 input fields banao.
+
+Ek button banao.
+
+Dono inputs ki values get karo.
+
+Unka sum calculate karke console mein print karo.
+
+Question 54: Welcome Message
+
+Ek input field banao jahan user apna name enter kare.
+
+Button click hone par screen par show karo:
+
+Welcome Ali
+
+Question 55: Even or Odd
+
+Ek input field banao.
+
+User se number lo.
+
+Button click par check karo ke number even hai ya odd.
+
+Result HTML mein show karo.
+
+Question 56: Multiplication Table
+
+Ek input field banao.
+
+User se table number lo.
+
+Button click hone par uska table 1 se 10 tak HTML mein show karo.
+
+Is question mein loop use karna zaroori hai.
+
+Question 57: Simple Student Registration
+
+Student name ke liye input field banao.
+
+Button banao.
+
+Button click hone par student ka name ek array mein add karo using push().
+
+Loop use karke tamam students ke names HTML mein show karo.
+
+Question 58: Student Removal
+
+Ek students ka array banao.
+
+Ek button banao.
+
+Button click hone par pop() use karke last student remove karo.
+
+Updated students list HTML mein show karo.
+
+Question 59: Input Value Update
+
+Ek input field banao.
+
+Ek button banao.
+
+Button click hone par input ki existing value change karke Saylani Mass IT Training set karo.
+
+Question 60: Mini Calculator
+
+2 input fields banao.
+
+4 buttons banao: Addition, Subtraction, Multiplication, Division.
+
+Har button ka apna function hona chahiye.
+
+User ke enter kiye hue numbers par calculation perform karo.
+
+Result HTML mein show karo.

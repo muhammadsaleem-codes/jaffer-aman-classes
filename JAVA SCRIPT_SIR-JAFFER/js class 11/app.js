@@ -56,27 +56,27 @@
 
 
 
-// function calculater(){
-//     var num1 = document.getElementById("num1")
-//     var num2 = document.getElementById("num2")
-//     var operator= document.getElementById("operator")
-//       if(operator.value === "+"){
-//         console.log(+num1.value + +num2.value)
-//       }
-//       else if(operator.value === "-"){
-//         console.log(+num1.value - +num2.value)
+function calculater(){
+    var num1 = document.getElementById("num1")
+    var num2 = document.getElementById("num2")
+    var operator= document.getElementById("operator")
+      if(operator.value === "+"){
+        console.log(+num1.value + +num2.value)
+      }
+      else if(operator.value === "-"){
+        console.log(+num1.value - +num2.value)
 
-//       }
-//       else if (operator.value === "*"){
-//         console.log(+num1.value * +num2.value)
+      }
+      else if (operator.value === "*"){
+        console.log(+num1.value * +num2.value)
 
-//       }
+      }
 
-//       else if(operator.value === "/"){
-//         console.log(+num1.value / +num2.value)
-//       }
-//       else{
-//         console.log("invalid");
+      else if(operator.value === "/"){
+        console.log(+num1.value / +num2.value)
+      }
+      else{
+        console.log("invalid");
         
-//       }
-// }
+      }
+}
